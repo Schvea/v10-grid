@@ -1,6 +1,19 @@
-.grid-container {
+.grid {
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
+    grid-gap: 5px;
+    grid-template-columns: 100px 100px 100px;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #edb6e6;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+.a {
+    background-color: rgb(38, 49, 49);
 }
